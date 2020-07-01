@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malak Sherif Portofolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- <div class="logo">
+        <img src="" alt="logo here">
+    </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Malak Sherif</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Android Developer</p>
+        <img src="malak.jpg" alt="a picture of Malak smiling" class="intro__img">
+    </section>
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design Creative UI/UX</h3>
+                <p>
+                    The one thing that immediately caught my attention and sparked my enthusiasm to work in the mobile
+                    applications field is the attractive and most importantly creative designs that I see in many of my
+                    favorite applications.
+                    I love to contribute to the UI creation and UX analysis phase as it brings me closer to the idea
+                    that the customer wants to achieve and gives insight on how the customer want to features to be
+                    displayed and suitable to their personality.
+                    Perfecting that UI shape next to the maintanable code make the product distinctively shine through
+                    its competitors as well as gain a friendly audience.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Implement with Latest Technologies</h3>
+                <p>
+                    You can't have a creative graphic UI without a maintainable, clean and fast code to complete a
+                    powerful duo. I always try to study any software updates to distinguish the application amongst
+                    others not just in shape but also in functionality.
+                    Implemenation and refatoring already existing code with an updated, better working one, is always a
+                    plus that the customer doesn't see but definetley feels. It can make the experience go from a place
+                    to a thousand times better one.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Provide Awareness of Software Engineering Models</h3>
+                <p>One of the pros of having majored in Software Engineering is my knowledge of the process development
+                    of the product. This is one thing that makes students like us different than any other self-learning
+                    programmer. I can identify the customer needs and assess their requirements with the company's
+                    on-hand services.
+                    I can also then imagine which process model is better to work with according to the customer's
+                    vision. And also contribute in the testing process and not just be there to fix bugs and get the job
+                    done, but provied a deeper insight that can make the product more well-studied.
+                </p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer Based in Cairo</p>
+
+        <div class="about-me__body">
+            <p>I'm a person who has high energy and always excited to get on new projects. I love to work in a team and
+                have fun while having a great output as well. I'm often a leader and like to take care of things and
+                make sure they're done in an efficeint and well represented form. My goal in life is to keep learning
+                new things and having new eye opening experiences. </p>
+            <p>My passion for Software Engineering began from my strong interest in watching Sci-Fi movies and series. I
+                have always been impressed by them and always wondered if we could make that level of fiction a reality.
+                So as I studied I found that I was most attracted to mobile applications and specifically the psychology
+                behind them: that every single thing we code is built on user satisfaction, or solving a user's need
+                which I learnt while working in my internships and got excited to make a real impact in that field.</p>
+
+        </div>
+
+        <img src="malak2.jpg" alt="Malak in Aswan">
+    </section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of My Range of Work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="Rectangle1.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="Rectangle2.png" alt="" class="portfolio__img">
+            </a>
+
+           
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:malaksherif1997@gmail.com" class="footer__link">malaksherif1997@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/malak.sherif.92"><img src="facebook.png"></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/malak-sherif-012303184/"><img src="linkedin.png"></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/malaaksherif"><img src="github.png"></a></li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
